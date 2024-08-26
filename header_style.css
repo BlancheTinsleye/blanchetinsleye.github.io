@@ -14,10 +14,6 @@ nav {
     text-align: center;
 }
 
-a {
-    
-}
-
 h1 {
     display: flex;
     align-self: left;
@@ -63,7 +59,7 @@ h1 {
         align-items: center;
         margin: 5px;
         border-radius: 10px;
-        height: 40px;
+        /* height: 40px; */
         display: flex;
         background-color: rgb(16 25 32);
     }
@@ -75,6 +71,14 @@ h1 {
 }
 
 @media (min-width: 1024px) {
+    /* header { */
+        /* border-radius: 1.5rem; */
+    /* } */
+
+    /* .appear_nav { */
+        /* border-radius: 1.5rem; */
+    /* } */
+
     .aag_navigator {
         font-size: 2rem;
         margin: 1.5rem;
@@ -83,7 +87,67 @@ h1 {
         /* margin-left: 30px; */
     }
 
-    /* .appear_nav {
+    .navigator {
+        margin: 0.5rem;
+        font-size: 1.5rem;
+        width: 8rem;
+    }
+}
 
-    } */
+@media (min-width: 2048px) {
+    header {
+        border-radius: 1.5rem;
+    }
+
+    .appear_nav {
+        border-radius: 1.5rem;
+    }
+
+    .aag_navigator {
+        font-size: 3rem;
+        margin: 1.5rem;
+        /* text-decoration: none; */
+        /* color: blue; */
+        /* margin-left: 30px; */
+    }
+
+    .appear_nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 5px;
+        border-radius: 10px;
+        /* height: ; */
+        display: flex;
+        background-color: rgb(16 25 32);
+    }
+
+    .navigator {
+        font-size: 2rem;
+        width: 12rem;
+        margin: 1.5rem;
+    }
+}
+
+@media (min-width: 3840px) {
+    header {
+        border-radius: 2.5rem;
+        margin: 1.5rem;
+    }
+
+    .appear_nav {
+        border-radius: 2rem;
+        margin: 1.5rem;
+    }
+
+    .aag_navigator {
+        font-size: 10rem;
+        margin: 1.5rem;
+    }
+
+    .navigator {
+        font-size: 4rem;
+        width: 25rem;
+        margin: 1.5rem;
+    }
 }
