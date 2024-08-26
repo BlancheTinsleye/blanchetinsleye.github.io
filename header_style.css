@@ -94,7 +94,7 @@ h1 {
     }
 }
 
-@media (min-width: 2048px) {
+@media (min-width: 1920px) {
     header {
         border-radius: 1.5rem;
     }

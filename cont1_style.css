@@ -222,7 +222,7 @@
     }
 }
 
-@media (min-width: 2048px) {
+@media (min-width: 1920px) {
     /* .aag_1_img {
         height: 25rem;
         width: 25rem;
@@ -235,14 +235,15 @@
         
     }
 
-    .aag_cont {
-        /* left: 10rem; */
+    .img_cont {
+        top: 18rem;
+        left: 5rem;
     }
 
     .aag1, .aag2, .aag3, .aag4 {
         font-size: 15rem;
         height: 6rem;
-        width: 130rem;
+        width: 110rem;
         /* color: black; */
     }
     
