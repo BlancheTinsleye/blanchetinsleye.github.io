@@ -36,9 +36,16 @@ h1 {
     /* color: rgb(247, 176, 154); */
 }
 
-.navigator {
+.aag_navigator {
     text-decoration: none;
     color: rgb(247, 176, 154);
+}
+
+.navigator {
+    text-decoration: none;
+    font-size: 12px;
+    width: 60px;
+    color: rgb(69 100 120);
 }
 
 .appear_nav {
@@ -60,13 +67,22 @@ h1 {
         display: flex;
         background-color: rgb(16 25 32);
     }
+
+    .navigator {
+        font-size: 1.1rem;
+        width: 100px;
+    }
 }
 
 @media (min-width: 1024px) {
-    h1 {
+    .aag_navigator {
         font-size: 2rem;
-        
+        margin: 1.5rem;
         /* color: blue; */
         /* margin-left: 30px; */
     }
+
+    /* .appear_nav {
+
+    } */
 }
