@@ -6,8 +6,9 @@
 
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     flex-wrap: wrap;
-    /* flex-direction: column; */
+    flex-direction: column-reverse;
 }
 
 .drawing_1 {
@@ -186,11 +187,11 @@
         width: 25rem;
 
         margin-top: 25vb;
-        margin-left: 6vb;
+        margin-left: 10vb;
     }
 
     .aag1, .aag2, .aag3, .aag4 {
-        /* margin-left: 1vb; */
+        margin-left: 8vb;
         font-size: 10rem;
         height: 5.5rem;
         width: 90rem;
@@ -208,7 +209,7 @@
         display: inline-block;
         position: absolute;
         margin-top: 20vb;
-        margin-left: 110vb;
+        margin-left: 120vb;
 
         background: #101920;
         border: 15px solid #456478;
