@@ -225,6 +225,23 @@
     }
 }
 
+@media (min-width: 1400px) {
+    .aag_cont {
+        left: 5rem;
+        /* font-size: 100rem; */
+    }
+
+    .aag1, .aag2, .aag3, .aag4 {
+        font-size: 10rem;
+        height: 6rem;
+        width: 80rem;
+    }
+
+    .drawing_1 {
+        left: 60rem;
+    }
+}
+
 @media (min-width: 1920px) {
     /* .aag_1_img {
         height: 25rem;
