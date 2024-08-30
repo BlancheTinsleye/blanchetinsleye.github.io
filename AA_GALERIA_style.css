@@ -44,15 +44,13 @@ html {
     color: #F7B09A;
     text-decoration: none;
 
+    text-shadow: 0 0 10px  #F7B09A;
     transition: color 0.3s;
 
 
     /* top: 0; */
     /* position: sticky; */
-}
 
-.top_elmnts {
-    text-shadow: 0 0 10px  #F7B09A;
 }
 
 .top_elmnts:hover {

@@ -42,6 +42,14 @@ h1 {
     font-size: 12px;
     width: 60px;
     color: rgb(69 100 120);
+
+    transition: text-shadow 0.3s,
+    color 0.3s;
+}
+
+.navigator:hover {
+    text-shadow: 0 0 10px  #F7B09A;
+    color: #F7B09A;
 }
 
 .appear_nav {
