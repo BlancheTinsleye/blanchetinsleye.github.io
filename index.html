@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="works_style.css">
 
     <style>
+        html {
+            scroll-behavior: smooth;
+        }   
         body {
             background-color: rgb(69 100 120);
             display: flex;
@@ -33,25 +36,25 @@
         <header>
             <nav class="aa_g">
                 <h1>
-                    <a class="aag_navigator" href="">AA GALERIA</a>
+                    <a class="aag_navigator" href="#aag">AA GALERIA</a>
                 </h1>
             </nav>
 
             <nav class="other_nav">
-                <a class="navigator" href="">About me</a>
-                <a class="navigator" href="">Social Media</a>
-                <a class="navigator" href="">My works</a>
+                <a class="navigator" href="#socmeds_section">Social Media</a>
+                <a class="navigator" href="#about_me_sect">About me</a>
+                <a class="navigator" href="#works_section">My works</a>
             </nav>
         </header>
     </div>
 
     <nav class="appear_nav">
-        <a class="navigator" href="">Social Media</a>
-        <a class="navigator" href="">About me</a>
-        <a class="navigator" href="">My works</a>
+        <a class="navigator" href="#socmeds_section">Social Media</a>
+        <a class="navigator" href="#about_me_sect">About me</a>
+        <a class="navigator" href="#works_section">My works</a>
     </nav>
 
-    <section class="container">
+    <section class="container" id="aag">
         <div class="cont1">
             <div class="aag_cont">
                 <p class="aag4">
@@ -81,7 +84,7 @@
         </div>
     </section>
 
-    <section class="socmeds_sect">
+    <section class="socmeds_sect" id="socmeds_section">
         <div class="socmeds_1">
             <a class="socmed_link" href="https://www.facebook.com/profile.php?id=100075645289081&mibextid=ZbWKwL" target="_blank">Facebook</a>
             <a class="socmed_link" href="https://www.instagram.com/aa_galeria?igsh=aWtuY2doNnJsN25s" target="_blank">Instagram</a>
@@ -90,7 +93,7 @@
         </div>
     </section>
 
-    <section class="about_me">
+    <section class="about_me" id="about_me_sect">
         <div class="cont3">
             <div class="aag_intro">
                 <img class="aag2_img" src="https://res.cloudinary.com/damtc4g0q/image/upload/v1724324922/aagal_d73ar1.jpg" alt="">
@@ -114,7 +117,7 @@
     </section>
 
     <section class="works_sect">
-        <div class="cont4">
+        <div class="cont4" id="works_section">
             <div class="proj1">
                 <img class="proj_img" src="https://res.cloudinary.com/damtc4g0q/image/upload/v1724324944/kape_painting_dnzcnm.jpg" alt="">
                 <p class="proj_ttl">
