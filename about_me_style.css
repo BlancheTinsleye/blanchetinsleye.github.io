@@ -3,6 +3,8 @@
     justify-content: space-around;
     align-items: center;
 
+    width: 100%;
+
     margin-top: 100px;
 }
 
@@ -14,6 +16,8 @@
     /* background-color: rgb(69 100 120); */
     display: flex;
     justify-content: space-around;
+    /* align-content: center; */
+    /* flex-direction: column; */
     flex-wrap: wrap;
     align-items: center;
 }
@@ -109,4 +113,134 @@
     transition: color 0.5s,
     text-shadow 0.5s;
 
+}
+
+@media (min-width:1024px) {
+    .about_me {
+        /* width: auto; */
+        position: absolute;
+        top: 100vb;
+    }
+
+    .aag_intro, .me_intro {
+        height: 40rem;
+        width: 25rem;
+    }
+
+    .aag2_img, .me_intro_img {
+        height: 20rem;
+        width: 20rem;
+    }
+
+    .aag_intro_txt, .me_intro_txt {
+        font-size: 2rem;
+    }
+    
+    .me_intro_txt {
+        line-height: 2.5rem;
+    }
+
+    .mi_name {
+        font-size: 4rem;
+        /* height: 220px; */
+    }
+}
+
+@media (min-width: 1400px) {
+    .about_me {
+        /* width: auto; */
+        position: absolute;
+        top: 100vb;
+    }
+
+    .aag_intro, .me_intro {
+        height: 40rem;
+        width: 25rem;
+    }
+
+    .aag2_img, .me_intro_img {
+        height: 20rem;
+        width: 20rem;
+    }
+
+    .aag_intro_txt, .me_intro_txt {
+        font-size: 2rem;
+    }
+    
+    .me_intro_txt {
+        line-height: 2.5rem;
+    }
+
+    .mi_name {
+        font-size: 4rem;
+        /* height: 220px; */
+    }
+}
+
+@media (min-width: 1920px) {
+    .about_me {
+        margin-top: 15rem;
+    }
+
+    .aag_intro, .me_intro {
+        height: 50rem;
+        width: 35rem;
+    }
+
+    .aag2_img, .me_intro_img {
+        height: 30rem;
+        width: 30rem;
+        margin: 2rem;
+    }
+
+    .aag_intro_txt, .me_intro_txt {
+        font-size: 3rem;
+        /* height: rem; */
+        /* line-height: 2rem; */
+        width: 26rem;
+    }
+    
+    .me_intro_txt {
+        line-height: 3rem;
+    }
+
+    .mi_name {
+        font-size: 4rem;
+        /* height: 220px; */
+    }
+}
+
+@media (min-width: 3840px) {
+    .about_me {
+        margin-top: 25rem;
+    }
+
+    .aag_intro, .me_intro {
+        height: 90rem;
+        width: 65rem;
+        border-radius: 5rem;
+    }
+
+    .aag2_img, .me_intro_img {
+        height: 50rem;
+        width: 50rem;
+        margin: 4rem;
+        border-radius: 2rem;
+    }
+
+    .aag_intro_txt, .me_intro_txt {
+        font-size: 6rem;
+        /* height: 1000rem; */
+        line-height: 4rem;
+        width: 52rem;
+    }
+    
+    .me_intro_txt {
+        line-height: 6rem;
+    }
+
+    .mi_name {
+        font-size: 8rem;
+        /* height: 220px; */
+    }
 }
