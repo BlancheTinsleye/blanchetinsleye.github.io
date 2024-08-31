@@ -2,7 +2,7 @@
     width: 100%;
     background-color: rgb(16, 25, 32);
 
-    margin-top: 15vb;
+    #margin-top: 15vb;
 
     position: absolute;
     top: 230vb;
@@ -18,7 +18,7 @@
 
 
 .proj1, .proj2, .proj3, .proj4 {
-    height: 17rem;
+    height: 18rem;
     /* height: 250px; */
     width: 320;
     margin-bottom: 125px;
