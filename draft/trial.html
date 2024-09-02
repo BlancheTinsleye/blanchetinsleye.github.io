@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRIAL</title>
+
+    <style>
+        body {
+            background-color: rgb(69 100 120);
+            
+        }
+
+        .cont1 {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+
+            background-color: rgb(0, 19, 34);
+
+            height: 98vb;
+            width: 100%;
+
+            place-items: center;
+        }
+
+        /* .box {
+            background-color: pink;
+            height: 25vb;
+            width: 25vb;
+        } */
+
+        /* .cont1 .box {
+            background-color: pink;
+            height: 25vb;
+            width: 25vb;
+
+            grid-area: 1 / 1;
+        } */
+
+        .cont1 .aag_cont {
+            grid-area: 1 / 1;
+            margin-bottom: 20vb;
+        }
+
+        .cont1 .aag_1_img {
+            grid-area: 1 / 1;
+
+            margin-right: 120vb;
+            margin-top: 20vb;
+        }
+
+        /* .cont1 {
+            display: inline-block;
+        } */
+
+        /* .aag1 { */
+            /* color: rgb(247, 176, 154); */
+            /* font-family: 'Old Standard TT';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 55px;
+            height: 30px;
+
+            margin: 0%; */
+            /* margin-top: 20px; */
+            /* margin-bottom: 50px;
+        /* } */
+        
+        .aag2 {
+            /* font-family: 'Old Standard TT';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 55px;
+            color: rgb(69, 100, 120);
+
+            height: 30px;
+            
+            margin: 0%; */
+
+            text-shadow: 
+                        2px 2px 0 rgba(247, 176, 154, 0.75),  
+                    /* -1px -1px 0 rgba(247, 176, 154, 0.75), */
+                        1px -1px 0 rgba(247, 176, 154, 0.75),
+                    -2px 2px 0 rgba(247, 176, 154, 0.75);
+            
+        }
+
+        .aag3 {
+            /* font-family: 'Old Standard TT';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 55px;
+            color: rgb(69, 100, 120);
+
+            margin: 0%;
+            height: 30px; */
+            
+            text-shadow: 
+                2px 2px 0 rgba(247, 176, 154, 0.5),  
+            /* -1px -1px 0 rgba(247, 176, 154, 0.5), */
+                1px -1px 0 rgba(247, 176, 154, 0.5),
+                -2px 2px 0 rgba(247, 176, 154, 0.5);
+            
+        }
+
+        .aag4 {
+            /* font-family: 'Old Standard TT';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 55px;
+            height: 30px;
+
+            margin: 0px; */
+
+            /* color: #456478; */
+            color: rgb(69 100 120);
+
+            text-shadow: 
+                2px 2px 0 rgba(247, 176, 154, 0.25),  
+            /* -1px -1px 0 rgba(247, 176, 154, 0.25), */
+                1px -1px 0 rgba(247, 176, 154, 0.25),
+                -2px 2px 0 rgba(247, 176, 154, 0.25);
+            /* margin-top: 0px; */
+            /* margin-bottom: 10px; */
+        }
+        .aag1 {
+            font-family: 'Old Standard TT';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20vb;
+            color: #F7B09A;
+
+            height: 10vb;
+            margin: 0%;
+            text-align: center;
+
+            transition: text-shadow 0.7s,
+            color 0.7s;
+
+        }
+
+        .aag2, .aag3, .aag4 {
+            font-family: 'Old Standard TT';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20vb;
+            color: rgb(69, 100, 120);
+
+            height: 10vb;
+            
+            margin: 0%;
+
+
+            /* display: inline-block; */
+            transition: text-shadow 0.7s,
+            color 0.7s;
+
+            text-align: center;
+        }
+        
+        .aag_cont:hover .aag1 {
+            /* background-color: blue; */
+            text-shadow: 0 0 20px #F7B09A;
+            color: white;
+            transition-delay: 0.6s;
+        }
+
+        .aag_cont:hover .aag2 {
+            /* background-color: blue; */
+            text-shadow: 0 0 20px #F7B09A;
+            color: rgb(212, 196, 172);
+            transition-delay: 0.4s;
+        }
+
+        .aag_cont:hover .aag3 {
+            /* background-color: blue; */
+            text-shadow: 0 0 15px #F7B09A;
+            color: rgb(170, 187, 139);
+            transition-delay: 0.2s;
+        }
+
+        .aag_cont:hover .aag4 {
+            /* background-color: blue; */
+            text-shadow: 0 0 15px #F7B09A;
+            color: rgb(109, 160, 124);
+            /* opacity: 0.001px; */
+            /* transition-delay: 0.6s; */
+        }
+
+        .aag_1_img {
+            /* height: 100px; */
+            width: 300px;
+            height: 300px;
+            border-radius: 10px;
+            /* margin: 30px; */
+
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <div class="cont1">
+
+        <!-- <div class="box">
+
+        </div> -->
+
+        <!-- <div class="img_cont">
+        </div> -->
+        <div class="aag_cont">
+            <p class="aag4">
+                AA GALERIA
+            </p>
+            <p class="aag3">
+                AA GALERIA
+            </p>
+            <p class="aag2">
+                AA GALERIA
+            </p>
+            <p class="aag1">
+                AA GALERIA
+            </p>
+        </div>
+        <img class="aag_1_img" src="https://res.cloudinary.com/damtc4g0q/image/upload/v1724324922/aagal_d73ar1.jpg" alt="">
+
+        <!-- <div class="drawing_1">
+            <a class="socmed_link" href="https://www.facebook.com/profile.php?id=100075645289081&mibextid=ZbWKwL" target="_blank">Facebook</a>
+            <a class="socmed_link" href="https://www.instagram.com/aa_galeria?igsh=aWtuY2doNnJsN25s" target="_blank">Instagram</a>
+            <a class="socmed_link" href="https://www.threads.net/@aa_galeria" target="_blank">Threads</a>
+            <a class="socmed_link" href="https://www.tiktok.com/@aa_galeria?_t=8p6CY7mWbJw&_r=1" target="_blank">Tiktok</a>
+        </div> -->
+    </div>
+</body>
+</html>

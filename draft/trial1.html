@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <title>Overlapping Items on Top of Each Other</title>
+
+  <style>
+    body {
+      background-color: #000;
+      display: grid;
+      place-content: center;
+    }
+
+    .main {
+      background-color: #111;
+      padding: 40px;
+      width: 400px;
+      border-radius: 20px;
+
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+
+      place-items: center;
+    }
+
+    .main .planet {
+      width: 200px;
+
+      grid-area: 1 / 1;
+    }
+
+    .main .rocket {
+      width: 50px;
+      filter: drop-shadow(0px 2px 5px #333);
+      margin-right: 20vb;
+      grid-area: 1 / 1;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main">
+    <img class="planet" src="https://www.kirupa.com/icon/1fa90.svg">
+    <img class="rocket" src="https://www.kirupa.com/icon/1f680.svg">
+  </div>
+</body>
+
+</html>
