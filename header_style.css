@@ -27,6 +27,8 @@
 }
 
 .navigators_cont {
+    position: sticky;
+    top: 10px;
     background-color: #101920;
     margin: 1vh;
     border-radius: 1vh;
