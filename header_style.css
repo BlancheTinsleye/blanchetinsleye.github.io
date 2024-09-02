@@ -1,10 +1,10 @@
 .header_cont {
     background-color: #101920;
     display: flex;
-    height: 5vb auto;
+    height: 5vh auto;
     justify-content: center;
     /* align-items: center; */
-    border-radius: 1vb;
+    border-radius: 1vh;
 }
 
 
@@ -19,17 +19,17 @@
 .aag_navigator {
     /* display: flex; */
     /* align-self: left; */
-    margin: 1vb;
+    margin: 1vh;
     color: #F7B09A;
     font-family: 'Old Standard TT';
     font-style: bold;
-    font-size: 3vb;
+    font-size: 3vh;
 }
 
 .navigators_cont {
     background-color: #101920;
-    margin: 1vb;
-    border-radius: 1vb;
+    margin: 1vh;
+    border-radius: 1vh;
 }
 
 .navs {
@@ -37,9 +37,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* width: 10vb; */
+    /* width: 10vh; */
     /* display: flex; */
-    margin-right: 1vb auto;
+    margin-right: 1vh auto;
     /* flex-grow: 1; */
     /* align-self: left; */
     /* flex-wrap: nowrap; */
@@ -50,13 +50,13 @@
 .navigator {
     /* display: flex; */
     text-decoration: none;
-    font-size: 2vb;
+    font-size: 2vh;
     width: auto;
     color: rgb(69 100 120);
     text-align: center;
 
 
-    margin: 1vb;
+    margin: 1vh;
 
     transition: text-shadow 0.3s,
     color 0.3s;
