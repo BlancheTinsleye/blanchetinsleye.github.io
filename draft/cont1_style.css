@@ -250,6 +250,28 @@
     }
 }
 
+@media (min-width: 1841px) {
+    .aag_cont {
+        left: 13rem;
+        /* font-size: 100rem; */
+    }
+
+    .aag1, .aag2, .aag3, .aag4 {
+        font-size: 14rem;
+        height: 6rem;
+        width: 90rem;
+    }
+
+    .img_cont {
+        top: 17rem;
+        left: 4rem;
+    }
+
+    .drawing_1 {
+        left: 90rem;
+    }
+}
+
 @media (min-width: 1920px) {
     /* .aag_1_img {
         height: 25rem;
@@ -289,6 +311,36 @@
     }
     
 
+}
+
+@media (min-width: 2560px) {
+    .aag_1_img {
+        height: 30rem;
+        width: 30rem;
+        border-radius: 1.5rem;
+        
+    }
+
+    .img_cont {
+        top: 20rem;
+        left: 7rem;
+    }
+
+    .aag1, .aag2, .aag3, .aag4 {
+        font-size: 20rem;
+        height: 10rem;
+        width: 10rem;
+        margin-left: 12rem;
+        /* color: black; */
+    }
+
+    .drawing_1 {
+        top: 15rem;
+        left: 95rem;
+
+        height: 40rem;
+        width: 35rem;
+    }
 }
 
 @media (min-width: 3840px) {
