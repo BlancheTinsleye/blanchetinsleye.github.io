@@ -8,9 +8,9 @@
 }
 
 
-.aag_cont {
+/* .aag_cont { */
     /* background: linear-gradient(to bottom, #101920, #040608); */
-}
+/* } */
 
 .aag_navigator, .navigator {
     text-decoration: none;
@@ -77,5 +77,15 @@
 
     .navigator {
         font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 2048px) {
+    .aag_navigator {
+        font-size: 4rem;
+    }
+
+    .navigator {
+        font-size: 2.5rem;
     }
 }
