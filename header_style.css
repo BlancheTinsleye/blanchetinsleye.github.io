@@ -8,8 +8,8 @@
 }
 
 
-.aa_g {
-    /* display: flex; */
+.aag_cont {
+    /* background: linear-gradient(to bottom, #101920, #040608); */
 }
 
 .aag_navigator, .navigator {
@@ -27,6 +27,7 @@
 }
 
 .navigators_cont {
+    z-index: 7;
     position: sticky;
     top: 10px;
     background-color: #101920;
@@ -67,4 +68,14 @@
 .navigator:hover {
     text-shadow: 0 0 10px  #F7B09A;
     color: #F7B09A;
+}
+
+@media (min-width: 1024px) {
+    .aag_navigator {
+        font-size: 2rem;
+    }
+
+    .navigator {
+        font-size: 1.5rem;
+    }
 }
