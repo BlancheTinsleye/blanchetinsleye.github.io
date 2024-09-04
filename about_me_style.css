@@ -97,6 +97,10 @@
 }
 
 @media (min-width: 768px) {
+    .about_me {
+        margin-top: 10vb;
+    }
+
     .cont3 {
         display: grid;
         grid-template-columns: auto auto;
@@ -104,11 +108,29 @@
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
     .cont3 {
         column-gap: 15rem;
     }
 
+    .aag2_img, .me_intro_img {
+        /* margin: 5rem; */
+        height: 16rem;
+        border-radius: 1rem;
+    }
+    
+    .aag_intro_txt, .me_intro_txt {
+        font-size: 1.5rem;
+        width: 280px;
+    }
+    
+    .mi_name {
+        font-size: 2rem;
+    }
+
+}
+
+@media (min-width: 1440px) {
     .aag2_img, .me_intro_img {
         /* margin: 5rem; */
         height: 20rem;
@@ -120,9 +142,9 @@
         width: 320px;
     }
     
-    .mi_name {
+    /* .mi_name {
         font-size: 2rem;
-    }
+    } */
 }
 
 @media (min-width: 2560px) {
