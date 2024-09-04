@@ -375,17 +375,18 @@
 
 @media (min-width: 2560px) {
     .cont1 {
+        /* width: 100%; */
         display: flex;
         flex-direction: row;
         justify-content: center;
-        /* align-content: center; */
+        /* align-items: center; */
         /* grid-template-columns: auto auto auto;
         grid-template-rows: 0fr;
         place-items: none; */
     }
 
     .aag_cont {
-        margin: 0%;
+        margin: 2%;
         order: 2;
         /* display: inline-block; */
     }
@@ -400,7 +401,7 @@
 
     .aag_1_img {
         /* display: inline-block; */
-        margin: 0%;
+        margin: 2%;
         order: 1;
 
         /* height: 27rem;
@@ -412,7 +413,7 @@
 
     .drawing_1 {
         /* display: inline-block; */
-        margin: 0%;
+        margin: 2%;
         order: 3;
         /* width: 450px;
         height: 550px;
