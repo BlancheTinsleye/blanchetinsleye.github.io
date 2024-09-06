@@ -1,7 +1,9 @@
 .works_sect {
     background-color: rgb(16, 25, 32);
     display: flex;
-    justify-content: center;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
 }
 
 .cont4 {
@@ -9,9 +11,25 @@
     /* grid-template-columns: auto auto auto; */
     /* place-items: center; */
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
     /* justify-content: space-around; */
+}
+
+.my_works {
+    font-family: 'Old Standard TT';
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+                
+    /* color: rgb(247, 176, 154); */
+    color: #456478;
+
+    transition: color 0.5s;
+}
+
+.my_works:hover {
+    color: rgb(247, 176, 154);
 }
 
 .proj {
