@@ -1,0 +1,106 @@
+#workexp {
+    min-height: 100vh;
+    width: 100%;
+
+    background-color: #2C243E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: #ffffff;
+
+    padding-bottom: 100px;
+}
+
+#workexp-TXT {
+    font-family: "Grandstander-extrabold";
+    font-size: 80px;
+    font-weight: bolder;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+#workexp-mainCONT {
+    width: 90%;
+    display:flex ;
+    flex-direction: column;
+}
+
+#workexp-1stworkp1CONT {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 90%; */
+    /* align-items: center; */
+}
+
+.workexp-IMG {
+    height: 300px;
+    width: 500px;
+    background-color: #ECFF40;
+}
+
+.workexp-1stworkTXT {
+    width: 90%;
+    font-size: 40px;
+    align-self: center;
+    margin-bottom: 10px;
+    
+    /* font-family: "Grandstander-bolder"; */
+}
+
+#workexp-1stworkp1TXT {
+    font-family: "Grandstander-thin";
+    font-size: 40px;
+
+    /* margin-top: 70px; */
+    margin-left: 70px;
+
+    width: 90%;
+    align-self: center;
+}
+
+#workexp-1stworkp2CONT, #workexp-1stworkp3CONT, 
+#workexp-1stworkp4CONT, #workexp-1stworkp5CONT {
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    width: 90%;
+    /* align-self: center; */
+    align-items: center;
+
+    margin-top: 50px;
+    margin-left: 50px;
+
+    /* background-color: black; */
+}
+
+#workexp-1stworkp1UL, #workexp-1stworkp3UL,
+#workexp-1stworkp5UL {
+    font-family: "Grandstander-thin";
+    font-size: 35px;
+
+    /* margin-top: 70px; */
+    margin-left: 70px;
+    
+
+    width: 40%;
+    /* align-self: center; */
+}
+
+#workexp-1stworkp2UL {
+    font-family: "Grandstander-thin";
+    font-size: 35px;
+
+    /* margin-top: 70px; */
+    /* margin-left: 70px; */
+    
+
+    width: 40%;
+}
+
+#workexp-1stworkp1UL li, #workexp-1stworkp2UL li,
+#workexp-1stworkp3UL li, #workexp-1stworkp5UL li {
+    font-family: "Grandstander-thin"
+}

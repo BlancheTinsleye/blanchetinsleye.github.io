@@ -1,0 +1,72 @@
+#drawingstrad {
+    min-height: 100vh;
+    width: 100%;
+
+    background-color: #2C243E; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: #ffffff;
+
+    padding-bottom: 100px;
+}
+
+#drawingstrad-mainCONT {
+    width: 90%;
+    display:flex ;
+    flex-direction: column;
+}
+
+#drawingstrad-TXT {
+    font-family: "Grandstander-extrabold";
+    /* color: #2C243E; */
+    font-size: 80px;
+    font-weight: bolder;
+    margin-top: 70px;
+    
+    /* align-self: center; */
+}
+
+#drawingstrad-noteTXT {
+    text-indent: 2em;
+    margin-bottom: 50px;
+
+}
+
+#drawingstrad-drawingsCONT {
+    display: flex;
+    flex-wrap: wrap;    
+    /* align-content: center; */
+    justify-content: center;
+    width: 100%;
+
+    margin-left: 60px;
+}
+
+.drawingstrad-drawing {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-bottom: 40px;
+    width: 50%;
+}
+
+.drawingstrad-IMG {
+    height: 300px;
+    width: 300px;
+    background-color: #ECFF40;
+}
+
+.drawingstrad-txtCONT {
+    margin-left: 20px;
+}
+
+.drawingstrad-title {
+    font-size: 60px;
+}
+
+.drawingstrad-size {
+    font-size: 40px;
+}

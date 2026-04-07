@@ -1,0 +1,65 @@
+
+#aboutme {
+    /* position: absolute; */
+    /* top: 100%; */
+    min-height: 100vh;
+    width: 100%;
+
+    /* background-color: beige; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 100px;
+}
+
+#aboutme-mainCONT {
+    width: 90%;
+    display:flex ;
+    flex-direction: column;
+}
+
+#aboutme-TXT {
+    font-family: "Grandstander-extrabold";
+    font-size: 80px;
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#aboutme-1pTXT {
+    text-indent: 2em;
+    font-size: 40px;
+}
+
+#aboutme-2pTXT {
+    font-size: 40px;
+
+    margin-top: 70px;
+
+    width: 85%;
+    align-self: center;
+}
+
+
+.aboutme-prgphsCONT {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+
+    margin-top: 30px;
+}
+
+.aboutme-IMG {
+    height: 300px;
+    width: 400px;
+    background-color: #ECFF40;
+}
+
+.aboutme-prgphTXTs {
+    font-family: "Grandstander-thin";
+    width: 700px;
+    font-size: 35px;
+}

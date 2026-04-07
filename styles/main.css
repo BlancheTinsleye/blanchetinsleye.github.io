@@ -1,0 +1,63 @@
+/* .grandstander-font {
+  font-family: "Grandstander", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+} */
+
+@font-face {
+  font-family: "lIMELIGHT";
+  src: url("../fonts/Limelight-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Grandstander";
+  src: url("../fonts/grandstander/Grandstander-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Grandstander-thin";
+  src: url("../fonts/grandstander/Grandstander-Thin.ttf");
+}
+
+@font-face {
+  font-family: "Grandstander-bold";
+  src: url("../fonts/grandstander/Grandstander-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Grandstander-extrabold";
+  src: url("../fonts/grandstander/Grandstander-ExtraBold.ttf");
+}
+
+
+.limelight-regular {
+  font-family: "Limelight", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body {
+  position: relative;
+}
+
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Grandstander", cursive;
+  text-decoration: none;
+}
+
+main {
+  width: 100%;
+  min-height: 100vh;
+
+  /* background-color: yellow; */
+  margin-bottom: 200px;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
