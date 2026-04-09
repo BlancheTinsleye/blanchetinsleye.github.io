@@ -1,0 +1,73 @@
+#drawingsdigi {
+    min-height: 100vh;
+    width: 100%;
+
+    background-color: #ffffff; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: #2C243E;
+
+    padding-bottom: 100px;
+}
+
+#drawingsdigi-mainCONT {
+    width: 90%;
+    display:flex ;
+    flex-direction: column;
+}
+
+.drawingsdigi-TXT {
+    font-family: "Grandstander-extrabold";
+    color: #2C243E;
+    font-size: 80px;
+    font-weight: bolder;
+    margin-top: 70px;
+    
+    /* align-self: center; */
+}
+
+#drawingsdigi-drawingsCONT {
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: space-between;
+    /* align-items: center; */
+    width: 100%;
+
+    margin-left: 60px;
+}
+
+.drawingsdigi-drawing {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+
+    margin-bottom: 40px;
+    width: 50%;
+}
+
+.drawingsdigi-IMG {
+    height: 300px;
+    width: 300px;
+    background-color: #ECFF40;
+}
+
+.drawingsdigi-txtCONT {
+    margin-left: 20px;
+}
+
+.drawingsdigi-title {
+    font-size: 60px;
+    color: #2C243E;
+}
+
+.drawingsdigi-size {
+    font-size: 40px;
+    color: #2C243E;
+}
+
+.drawingsdigi-medium {
+    font-size: 40px;
+    color: #2C243E;
+}
