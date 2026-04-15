@@ -1,22 +1,17 @@
-import { Route, BrowserRouter as Router, Routes } from 'react-router';
-// import Message from './Message';
-// import ListGroup from './components/ListGroup';
-// import Alert from './components/Alert';
-import Home from './pages/home/Home';
+import { Routes, Route } from 'react-router-dom'
+import Home from './pages/home/Home'
 
-function App () {
+export default function App() {
   return (
-    <>
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-        </Routes>
-      </Router>
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+    </Routes>
   )
 }
 
-export default App;
+// export default function App() {
+//   return <h1>HELLO FROM REACT</h1>
+// }
 
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'

@@ -1,5 +1,5 @@
-import { react, usestate } from 'react';
-import './home.css';
+// import { react, usestate } from 'react';
+// import './home.css';
 
 const Home = () => {
     return (
