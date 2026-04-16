@@ -23,16 +23,24 @@ body {
   margin: 0px;
   font-family: "courierprime-regular";
   text-decoration: none;
+
+  color: #ffffff;
+
+  max-width: 1720px;
 }
 
-main {
+h1, h2 {
+  color: #ECFF40;
+}
+
+#root {
   width: 100%;
   min-height: 100vh;
+  background-color: #100D17;
+}
 
-  /* background-color: yellow; */
-  margin-bottom: 200px;
-
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+.PageSectionH1 {
+  margin-left: 5%;
+  /* margin-top: 20px; */
+  
 }

@@ -4,18 +4,20 @@ import Home from './pages/home/Home.tsx'
 import WorkExerperiencePage from './pages/workexperience/workexperiencepage/WorkExerperiencePage.tsx'
 import ProjectsPage from './pages/projects/projectspage/ProjectsPage.tsx'
 import DrawingsTradPage from './pages/drawingstrad/drawingstradpage/DrawingsTradPage.tsx'
-import Note from './pages/note/Note.tsx'
+// import Note from './pages/note/Note.tsx'
 import DrawingsDigiPage from './pages/drawingsdigi/drawingsdigipage/DrawingsDigiPage.tsx'
+import SkillsSection from './pages/skillssection/SkillsSection.tsx'
 
 export default function App() {
   return (
     <Routes>
-      <Route path="/" element={<Note />} />
-      <Route path="/home" element={<Home />} />
+      {/* <Route path="/" element={<Note />} /> */}
+      <Route path="/" element={<Home />} />
       <Route path="/workexperience" element={<WorkExerperiencePage />} />
       <Route path="/projects" element={<ProjectsPage />} />
       <Route path="/drawingstrad" element={<DrawingsTradPage />} />
       <Route path='/drawingsdigi' element={<DrawingsDigiPage />} />
+      <Route path='/skills' element={<SkillsSection />} />
     </Routes>
   )
 }

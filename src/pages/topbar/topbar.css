@@ -1,0 +1,29 @@
+#TopBar-mainCONT {
+    height: 50px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: fixed;
+    top:0px;
+    left:0px;
+
+    z-index: 101;
+
+    /* background-color: black; */
+}
+
+#TopBar-BG {
+    background-color: #100D17;
+    /* background-color: black; */
+    height: 50px;
+    width: 100%;
+
+    position: sticky;
+    top: 0px;
+
+    z-index: 100;
+}
+

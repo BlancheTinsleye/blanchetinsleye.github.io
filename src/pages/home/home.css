@@ -1,0 +1,49 @@
+#Home {
+
+    background-color: transparent;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-bottom: 50px;
+}
+
+#HomeintroCONT {
+    min-height: 100vh;
+    width: 100%;
+    background: radial-gradient(50% 50% at 50% 50%, 
+    #2C243E 0%, #231D32 16.83%, #100D17 85%);
+}
+
+#HomeintroCONT {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#HomeintroIMG {
+    height: 200px;
+    width: 200px;
+
+    border-radius: 10%;
+}
+
+#HomeintronameTXT {
+    font-family: "fascinate";
+    text-align: center;
+    font-size: 40px;
+
+    transition: text-shadow 0.5s ease-in-out;
+}
+
+#HomeintronameTXT:hover {
+    text-shadow: 0px 0px 10px #ECFF40;
+
+
+}
+
+#HomeintropositionTXT {
+    text-align: center;
+}

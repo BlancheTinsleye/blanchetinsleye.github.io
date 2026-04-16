@@ -1,0 +1,112 @@
+#AMS-mainCONT {
+    min-height: 100vh;
+    margin-top: 20px;
+    padding-bottom: 50px;
+
+    background-color: #100D17;
+
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#AMS-txtsCONT {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+
+    width: 90%;
+
+    align-self: center;
+}
+
+#AMS-txtL1 {
+    text-indent: 5%;
+}
+
+.AMS-designBOX {
+    position: absolute;
+
+    bottom: 0px;
+    left: 0px;
+
+    width: 100%;
+    height: 90%;
+
+    /* background-color: #100D17; */
+    border: 1px solid rgb(236, 255, 64, 30%);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px rgba(236, 255, 64, 0.1), 
+    inset 0px 0px 10px rgb(236, 255, 64, 0.2);
+
+    transition: box-shadow 0.5s ease-in-out,
+    border 0.5s ease-in-out,
+    border 0.5s ease-in-out;
+
+
+}
+
+#AMS-L2CONT:hover .AMS-designBOX {
+    border: 1px solid rgb(236, 255, 64);
+    box-shadow:
+    0px 0px 10px 1px rgb(236, 255, 64),
+    inset 0px 0px 10px rgb(236, 255, 64);
+}
+
+#AMS-L2CONT, #AMS-L3CONT {
+    position: relative;
+    top: 0px;
+    left: 0px;
+
+    margin-top: 20px;
+}
+
+#AMS-txtL2CONT, #AMS-txtL3CONT {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-bottom: 20px;
+}
+
+#AMS-L3CONT:hover .AMS-designBOX {
+    border: 1px solid rgb(236, 255, 64);
+    box-shadow:
+    0px 0px 10px 1px rgb(236, 255, 64),
+    inset 0px 0px 10px rgb(236, 255, 64);
+}
+
+
+.AMS-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+
+    background-color: #ffffff;
+
+    border: 5px solid #100D17;
+
+    z-index: 1;
+    
+}
+
+#AMS-txtL2, #AMS-txtL3 {
+    width: 95%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#AMS-txtL4 {
+    font-family: "courierprime-bold";
+    text-align: center;
+    margin-top: 20px;
+}
+
+#note {
+    font-size: 10px;
+    width: 200px;
+    /* font-weight: 500; */
+}
+
