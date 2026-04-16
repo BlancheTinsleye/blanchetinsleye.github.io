@@ -9,6 +9,7 @@ import TopBar from '../topbar/TopBar';
 import Footer from '../footer/Footer';
 import SkillsSection from '../skillssection/SkillsSection';
 import WorkExperienceSection from '../workexperience/workexperiencesection/WorkExperienceSection';
+import ProjectsSection from '../projects/projectssection/ProjectsSection';
 
 const Home = () => {
     return (
@@ -40,7 +41,9 @@ const Home = () => {
 
                 <WorkExperienceSection />
 
-                {/* <Link to="/skills">Skills</Link> */}
+                <ProjectsSection />
+
+                <Link to="/skills">Skills</Link>
                 <Link to="/workexperience">Work Experience</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/drawingstrad">Drawings (Traditional)</Link>

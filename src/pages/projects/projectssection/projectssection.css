@@ -1,0 +1,65 @@
+#PS-mainCONT {
+    min-height: 100vh;
+    margin-top: 100px;
+    padding-bottom: 50px;
+
+    background-color: #100D17;
+
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#PS-projectsCONT {
+    width: 90%;
+
+    align-self: center;
+
+    /* margin-top: 30px; */
+}
+
+.PS-prjct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    transition: box-shadow 0.5s ease-in-out,
+    inset 0.5s ease-in-out,
+    border 0.5s ease-in-out;
+}
+
+.PS-prjct:hover {
+    box-shadow: 0px 0px 10px 2px #ecff40,
+    inset 0px 0px 10px 1px #ecff40;
+    border: 1px solid #ecff40;
+
+}
+
+.PS-prjcttxtsCONT {
+    width: 100%;
+    text-align: center;
+}
+
+.PS-prjctIMG {
+    height: 200px;
+    width: 200px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#PS-note {
+    margin-top: 20px;
+
+    font-size: 14px;
+    color: #ecff40;
+}
