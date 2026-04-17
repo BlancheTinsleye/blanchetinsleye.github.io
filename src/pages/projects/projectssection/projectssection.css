@@ -14,7 +14,9 @@
 
 #PS-projectsCONT {
     width: 90%;
-
+    
+    display: flex;
+    flex-direction: column;
     align-self: center;
 
     /* margin-top: 30px; */

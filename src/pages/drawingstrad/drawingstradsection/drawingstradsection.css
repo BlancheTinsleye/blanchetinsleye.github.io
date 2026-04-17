@@ -1,0 +1,73 @@
+#DTS-mainCONT {
+    min-height: 100vh;
+    margin-top: 100px;
+    padding-bottom: 50px;
+
+    background-color: #100D17;
+
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.Drawings-prevCONT {
+    width: 90%;
+
+    align-self: center;
+
+    margin-top: 30px;
+
+    /* margin-top: 30px; */
+
+    border: 1px solid #ffffff;
+
+    /* display: grid; */
+    /* grid-template-columns: repeat(1, 1fr); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    border-radius: 10px;
+
+    transition: box-shadow 0.5s ease-in-out;
+
+    /* background-color: darkcyan; */
+}
+
+.Drawings-prevCONT:hover {
+    box-shadow: 0px 0px 5px 2px #ecff40;
+}
+
+.drwng {
+    height: 100px;
+    width: 100px;
+
+    margin: 10px;
+
+    border-radius: 10px;
+}
+
+#DTS-note {
+    margin: 20px;
+
+    font-size: 14px;
+    color: #ecff40;
+}
+
+@media (min-width: 768px) {
+    .Drawings-prevCONT {
+        display: none;
+
+        /* background-color: black; */
+    }
+
+    .drwng {
+        /* margin: 5%; */
+
+        height: 150px;
+        width: 150px;
+    }
+}

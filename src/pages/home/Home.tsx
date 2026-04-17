@@ -1,5 +1,5 @@
 // import { react, usestate } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import './home.css';
 import '../aboutmesection/AboutMeSection'
 import AboutMe from '../aboutmesection/AboutMeSection';
@@ -10,6 +10,8 @@ import Footer from '../footer/Footer';
 import SkillsSection from '../skillssection/SkillsSection';
 import WorkExperienceSection from '../workexperience/workexperiencesection/WorkExperienceSection';
 import ProjectsSection from '../projects/projectssection/ProjectsSection';
+import DrawingsTradSection from '../drawingstrad/drawingstradsection/DrawingsTradSection';
+import DrawingsDigiSection from '../drawingsdigi/drawingsdigisection/DrawingsDigiSection';
 
 const Home = () => {
     return (
@@ -43,11 +45,11 @@ const Home = () => {
 
                 <ProjectsSection />
 
-                <Link to="/skills">Skills</Link>
-                <Link to="/workexperience">Work Experience</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/drawingstrad">Drawings (Traditional)</Link>
-                <Link to="/drawingsdigi">Drawings (Digital)</Link>
+                <DrawingsTradSection />
+
+                <DrawingsDigiSection />
+
+               
             </div>
 
             <Footer />

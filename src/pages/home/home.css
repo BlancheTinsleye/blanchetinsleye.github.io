@@ -47,3 +47,26 @@
 #HomeintropositionTXT {
     text-align: center;
 }
+
+/* TABLET */
+@media (min-width: 768px) {
+    #HomeintroCONT {
+        flex-direction: row;
+    }
+
+    #HomeintronameTXT {
+        font-size: 60px;
+        text-align: left;
+    }
+
+    #HomeintroTXTCONT {
+        height: 200px;
+        margin-left: 10px;
+    }
+    
+    #HomeintropositionTXT {
+        margin-left: 5px;
+        text-align: left;
+        font-size: 20px;
+    }
+}

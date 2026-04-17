@@ -4,9 +4,9 @@ import './aboutmesection.css';
 const AboutMe = () => {
   return (
     <>
-        <div id="AMS-mainCONT">
+        <div className='section' id="AMS-mainCONT">
             <h1 className='PageSectionH1'>
-                About Me
+                ABOUT ME
             </h1>
 
             <div id="AMS-txtsCONT">
@@ -16,8 +16,9 @@ const AboutMe = () => {
 
               <div id="AMS-L2CONT">
                 <div className="AMS-designBOX"></div>
-                <div id="AMS-txtL2CONT">
-                  <div className="AMS-img"></div>
+                <div  className='AMS-mid' id="AMS-txtL2CONT">
+                  {/* <div className="AMS-img"></div> */}
+                  <img src="https://res.cloudinary.com/damtc4g0q/image/upload/v1776393080/mongodb-icon-_nmzoh5.svg" className="AMS-img" alt='MongoDB' />
 
                   <p id="AMS-txtL2">
                     Through my projects, I have also worked with technologies such as Node.js, Express, and MongoDB, while contributing to tasks like data scraping and debugging integrations.
@@ -27,8 +28,9 @@ const AboutMe = () => {
 
               <div id="AMS-L3CONT">
                 <div className="AMS-designBOX"></div>
-                <div id="AMS-txtL3CONT">
-                  <div className="AMS-img"></div>
+                <div className='AMS-mid' id="AMS-txtL3CONT">
+                  {/* <div className="AMS-img"></div> */}
+                  <img src="https://res.cloudinary.com/damtc4g0q/image/upload/v1776393341/Python-logo-notext.svg_egab8s.png" className="AMS-img" alt='Python' />
 
                   <p id="AMS-txtL3">
                     I also enjoy using Python for data processing and problem solving, This allow me to have a good foundation when jumping from one language to another.

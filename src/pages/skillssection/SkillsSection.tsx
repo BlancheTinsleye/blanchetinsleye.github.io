@@ -4,9 +4,9 @@ import './skillsection.css'
 const SkillsSection = () => {
   return (
     <>
-        <div id="SS-mainCONT">
+        <div className='section' id="SS-mainCONT">
           <h1 className='PageSectionH1'>
-            Skills
+            SKILLS
           </h1>
 
           <div id="SS-skills">

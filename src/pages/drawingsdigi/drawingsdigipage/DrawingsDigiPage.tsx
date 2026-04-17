@@ -1,13 +1,29 @@
 // import React from 'react'
+import Footer from '../../footer/Footer'
+import TopBar from '../../topbar/TopBar'
 import './drawingsdigipage.css'
 
 const DrawingsDigiPage = () => {
   return (
     <>
-        <h1>
-            Drawings (Digital)
-        </h1>
-    </>
+        <TopBar />
+        <div id="TopBar-BG"></div>
+        <div className="PAGE">
+          <div className='mainCONT' id="DDP-mainCONT">
+            <h1 className="PAGE-TITLE">
+              Digital Arts
+            </h1>
+            <p className="page-note">
+              This portfolio is currently a work in progress. I’m actively improving and adding new projects... Check back soon for updates.
+            </p>
+
+          </div>
+        </div>  
+        
+        {/* img */}
+
+        <Footer />
+      </>
   )
 }
 

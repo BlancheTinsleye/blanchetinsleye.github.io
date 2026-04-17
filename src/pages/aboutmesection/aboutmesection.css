@@ -29,7 +29,8 @@
 .AMS-designBOX {
     position: absolute;
 
-    bottom: 0px;
+    /* bottom: 0px; */
+    top: 10%;
     left: 0px;
 
     width: 100%;
@@ -110,3 +111,27 @@
     /* font-weight: 500; */
 }
 
+@media (min-width: 768px) {
+    #AMS-L2CONT, #AMS-L3CONT {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #AMS-txtL2CONT, #AMS-txtL3CONT {
+        flex-direction: row;
+
+        width: 90%;
+    }
+
+    .AMS-designBOX {
+        height: 70%;
+        /* top: 0px; */
+        /* transform: translate(0%, 50%); */
+    }
+
+    .AMS-img {
+        height: 200px;
+        width: 200px;
+    }
+}

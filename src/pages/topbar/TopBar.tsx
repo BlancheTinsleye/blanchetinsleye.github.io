@@ -6,7 +6,7 @@ const TopBar = () => {
   return (
     <>
         <div id="TopBar-mainCONT">
-            <Link to="/home">AA GALERIA</Link>
+            <Link to="/">Home</Link>
             <p id='note'>
               Note: This portfolio is currently under construction. Please check back later for updates!
             </p>
