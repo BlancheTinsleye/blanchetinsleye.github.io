@@ -13,7 +13,6 @@ const ProjectsSection = () => {
 
             <div id="PS-projectsCONT">
                 <div className="PS-prjct">
-                    {/* <div className="PS-prjctIMG"></div> */}
                     <img src="https://res.cloudinary.com/damtc4g0q/image/upload/v1776393768/logo_r6ultf.jpg" className="PS-prjctIMG" alt="SMILE logo" />
                     <div className="PS-prjcttxtsCONT">
                         <h3 className="PS-prjctNAME">
@@ -32,9 +31,9 @@ const ProjectsSection = () => {
                     </div>
                 </div>
             
-            <Link className='link' to="/projects">Click me to see more Projects</Link>
             
             </div>
+            <Link className='link' to="/projects">Click me to see more Projects</Link>
         </div>
     </>
   )

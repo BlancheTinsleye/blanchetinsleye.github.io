@@ -12,11 +12,13 @@ import WorkExperienceSection from '../workexperience/workexperiencesection/WorkE
 import ProjectsSection from '../projects/projectssection/ProjectsSection';
 import DrawingsTradSection from '../drawingstrad/drawingstradsection/DrawingsTradSection';
 import DrawingsDigiSection from '../drawingsdigi/drawingsdigisection/DrawingsDigiSection';
+import ScrollToTop from '../../ScrollToTop';
 
 const Home = () => {
     return (
         <>
             <TopBar />
+            <ScrollToTop />
             <div id="Home">
                 {/* <h1>
                     Home

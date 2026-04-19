@@ -20,7 +20,7 @@ const DrawingsDigiSection = () => {
 
             
             </div>
-                <Link className='link' to="/drawingsdigi">Drawings (Digital)</Link>
+                <Link className='link' to="/drawingsdigi">Click to see more of my Drawings (Digital)</Link>
 
         </div>
     </>

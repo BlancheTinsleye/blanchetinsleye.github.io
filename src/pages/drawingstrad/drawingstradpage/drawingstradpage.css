@@ -1,0 +1,74 @@
+#drawingstrad-mainCONT {
+    width: 90%;
+    display:flex ;
+    flex-direction: column;
+}
+
+
+
+#drawingstrad-noteTXT {
+    margin-bottom: 10px;
+
+}
+
+#drawingstrad-drawingsCONT {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap;     */
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+
+    /* margin-left: 60px; */
+}
+
+.drawingstrad-drawing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.drawingstrad-IMG {
+    height: 100px;
+    width: 100px;
+    /* background-color: #ECFF40; */
+}
+
+.drawingstrad-txtCONT {
+    width: 60%;
+}
+
+@media (min-width: 768px) {
+    #drawingstrad-drawingsCONT {
+        flex-wrap: wrap;
+        flex-direction: row;
+
+        justify-content: flex-start;
+    }
+
+    .drawingstrad-txtCONT {
+        width: 50%;
+        margin: 20px;
+    }
+
+    .drawingstrad-IMG {
+        height: 150px;
+        width: 150px;
+    }
+
+    .drawingstrad-drawing {
+        justify-content: center;
+        width: 50%;
+    }
+}
+
+/*.drawingstrad-title {
+    font-size: 60px;
+}
+
+.drawingstrad-size {
+    font-size: 40px;
+} */

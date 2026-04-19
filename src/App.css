@@ -13,8 +13,36 @@
   src: url('./fonts/fascinate/Fascinate-Regular.ttf');
 }
 
+html {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#root {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
   position: relative;
+
+  
+
+  background-color: #100D17;
+
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+
 }
 
 
@@ -34,6 +62,8 @@ body {
   border-radius: 10px;
 
   padding-top: 20px;
+
+  /* max-height: 642px; */
 
 }
 
@@ -70,9 +100,26 @@ h1, h2 {
   /* color: #100D17; */
 
   border: 2px solid #ECFF40;
-  border-radius: 10px;
+  border-radius: 20px;
 
-  margin-top: 20px;
+  background-color: #ECFF40;
+  color: #100D17;
+
+  /* margin-top: 20px; */
+
+  width: 250px;
+
+  transition: border 0.1s ease-in-out,
+  box-shadow 0.1s ease-in-out,
+  border-radius 0.1s ease-in-out;
+
+  margin-top: auto;
+}
+
+.link:hover {
+  border: 2px solid #ffffff65;
+  box-shadow: 0px 0px 10px 1px #ECFF40;
+  border-radius: 10px;
 }
 
 .PAGE {
@@ -90,6 +137,10 @@ h1, h2 {
 
   display: flex;
   flex-direction: column;
+
+  margin-bottom: 40px;
+
+  align-self: center;
 }
 
 .page-note {
@@ -109,3 +160,63 @@ h1, h2 {
 
 
 }
+
+.PAGE-TITLE {
+  font-family: "fascinate";
+  font-size: 35px;
+
+  margin-bottom: 30px;
+}
+
+@media (min-width:1024px) {
+  .PageSectionH1, .PAGE-TITLE {
+    font-size: 60px;
+  }
+
+  p, li {
+   font-size: 20px; 
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  .link {
+    font-size: 18px;
+    width: 300px;
+  }
+}
+
+@media (min-width:1440px) {
+  .PAGE-TITLE {
+    font-size: 60px;
+  }
+
+  p {
+   font-size: 24px; 
+  }
+
+  h3, h2 {
+    font-size: 35px;
+  }
+
+  .link {
+    /* font-size: 24px; */
+    width: 350px;
+  }
+}
+
+.mainCONT {
+    min-height: 100vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: #ffffff;
+
+    padding-bottom: 100px;
+}
+
+

@@ -48,7 +48,6 @@
     text-align: center;
 }
 
-/* TABLET */
 @media (min-width: 768px) {
     #HomeintroCONT {
         flex-direction: row;
@@ -68,5 +67,20 @@
         margin-left: 5px;
         text-align: left;
         font-size: 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+    #HomeintronameTXT {
+        font-size: 100px;
+    }
+
+    #HomeintroIMG {
+        height: 300px;
+        width: 300px;
+    }
+
+    #HomeintroTXTCONT {
+        height: 300px;
     }
 }

@@ -20,7 +20,7 @@ const DrawingsTradSection = () => {
 
             
             </div>
-                <Link className='link' to="/drawingstrad">Click to see more of my Traditional Drawings</Link>
+            <Link className='link' to="/drawingstrad">Click to see more of my Traditional Drawings</Link>
 
         </div>
     </>

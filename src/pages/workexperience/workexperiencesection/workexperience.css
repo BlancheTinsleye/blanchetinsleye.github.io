@@ -36,10 +36,18 @@
     margin: 10px;
 }
 
+.WES-workttlTXT {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .WES-worklocTXT {
     text-indent: 10px;
     margin-top: 5px;
     text-align: center;
+    width: 100%;
 }
 
 #WES-note {
@@ -47,4 +55,31 @@
 
     font-size: 14px;
     color: #ecff40;
+}
+
+@media (min-width: 768px) {
+    .WES-exp {
+        flex-direction: row;
+        justify-content: center;
+
+        /* display: block; */
+        /* text-align: left; */
+    }
+
+    .WES-workttlTXT {
+        margin-left: 20px;
+    }
+
+    .WES-workttlTXT, .WES-worklocTXT {
+        /* justify-content: left; */
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .WES-worklocTXT {
+        text-indent: 40px;
+    }
+}
+
+@media (min-width: 1440px) {
 }

@@ -135,3 +135,16 @@
         width: 200px;
     }
 }
+
+@media (min-width: 1440px) {
+    .AMS-designBOX {
+        height: 75%;
+        /* top: 0px; */
+        /* transform: translate(0%, 50%); */
+    }
+
+    .AMS-img {
+        height: 300px;
+        width: 300px;
+    }
+}
