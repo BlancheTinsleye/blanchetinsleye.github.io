@@ -30,6 +30,43 @@
     border-radius: 10%;
 }
 
+/* Image hover swap */
+.image-wrapper {
+    position: relative;
+    height: 200px;
+    width: 200px;
+}
+
+.image-wrapper img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+
+    transition: opacity 0.4s ease, transform 0.3s ease;
+}
+
+/* Stack images */
+.img-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+/* Hover effect */
+.image-wrapper:hover .img-hover {
+    opacity: 1;
+}
+
+.image-wrapper:hover .img-default {
+    opacity: 0;
+}
+
+/* Optional polish */
+.image-wrapper:hover img {
+    transform: scale(1.05);
+}
+
 #HomeintronameTXT {
     font-family: "fascinate";
     text-align: center;
@@ -47,6 +84,8 @@
 #HomeintropositionTXT {
     text-align: center;
 }
+
+
 
 @media (min-width: 768px) {
     #HomeintroCONT {
@@ -76,6 +115,11 @@
     }
 
     #HomeintroIMG {
+        height: 300px;
+        width: 300px;
+    }
+
+    .image-wrapper {
         height: 300px;
         width: 300px;
     }

@@ -5,6 +5,7 @@ import '../aboutmesection/AboutMeSection'
 import AboutMe from '../aboutmesection/AboutMeSection';
 
 import me from '../../assets/me.png'
+import drawing from '../../assets/drawing.png'
 import TopBar from '../topbar/TopBar';
 import Footer from '../footer/Footer';
 import SkillsSection from '../skillssection/SkillsSection';
@@ -25,7 +26,10 @@ const Home = () => {
                 </h1> */}
 
                 <div id="HomeintroCONT">
-                    <img id="HomeintroIMG" src={me} alt={me} />
+                    <div className="image-wrapper">
+                        <img className="img-default" src={drawing} alt="Profile picture" />
+                        <img className="img-hover" src={me} alt="Alternate profile" />
+                    </div>
                     <div id="HomeintroTXTCONT">
                         <h1 id='HomeintronameTXT'>
                             MERCADO,<br />
