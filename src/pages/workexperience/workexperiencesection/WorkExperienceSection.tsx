@@ -1,6 +1,8 @@
 // import React from 'react'
 import { Link } from 'react-router-dom';
 import './workexperience.css'
+import WorkExperienceCONT from '../../../components/workexperiences/WorkExperienceCONT';
+import data from './workexp.json'
 
 const WorkExperienceSection = () => {
   return (
@@ -11,24 +13,14 @@ const WorkExperienceSection = () => {
             </h1>
 
             <div id="WES-expereriencesCONT">
-                <div className="WES-exp">
-                    <div className="WES-exp">
-                        <img src="https://res.cloudinary.com/damtc4g0q/image/upload/v1776393543/8Con_mfo4la.jpg" className="WES-img" alt="8Con Logo" />
-                        
-                            <div className="WES-workttlTXT">
-                                <h3>
-                                    Marketing Intern (OJT)
-                                </h3>
-                                <div className="WES-worklocCONT">
-                                    <p className="WES-worklocTXT">
-                                        8Con Academy l 933 ABZ Building Brgy. Calvario MacArthur Highway Meycauayan, Bulacan, 3020
-                                    </p>
-                                </div>
-                            </div>
-                        
-                        
-                    </div>
-                </div>
+                
+                {
+                    data.workexp.map((job, index) =>
+                        <WorkExperienceCONT key={index} logo_lnk={job.logo_link} alt={job.alt} position_ttl={job.position_title} lctn={job.location} />)
+                }
+
+
+                
             </div>
             <Link className='link' to="/workexperience">Click to see more of my Work Experience</Link>
         </div>
