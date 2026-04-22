@@ -11,7 +11,7 @@ const SkillsSection = () => {
             SKILLS
           </h1>
 
-          <div id="SS-skills">j
+          <div id="SS-skills">
             <ul className="SS-list-group1">
               <h2>
                 Programming / Web Development

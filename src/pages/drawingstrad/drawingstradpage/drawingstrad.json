@@ -1,0 +1,58 @@
+{
+    "trad" : [
+        {
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1724324944/kape_painting_dnzcnm.jpg",
+            "alt" : "Coffee Art",
+            "size" : "9 by 12 in",
+            "medium" : "WC paper"
+        },
+        {
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1724445423/BGYO_emd1tb.jpg",
+            "alt" : "Pablo",
+            "size" : "a4",
+            "medium" : "Vellum board"
+        },
+        {
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1725653648/c4f2db0bc50a1541927b66aab34a5292_mjkt1x.jpg",
+            "alt" : "Ashley",
+            "size" : "5.25 by 7.5 in",
+            "medium" : "WC Paper"
+        },
+        {
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1725653648/cf83efc439f8892f8b87af64c458e676_chyubn.jpg",
+            "alt" : "Judd",
+            "size" : "5.25 by 7.5 in",
+            "medium" : "WC Paper"
+        },
+        {
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1725653649/4c3205a4478942d4958fb97ecd0c3986_co7p7p.jpg",
+            "alt" : "Kai",
+            "size" : "5.25 by 7.5 in",
+            "medium" : "WC Paper"
+        },
+        {
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1725653649/198a4cce23b53c56040392367f57cf70_e4oqqt.jpg",
+            "alt" : "Nick",
+            "size" : "5.25 by 7.5 in",
+            "medium" : "WC Paper"
+        },
+        {
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1725653650/FB_IMG_1725628118897_ohsufx.jpg",
+            "alt" : "Duck Cover and Hold",
+            "size" : "9 by 12 in",
+            "medium" : "WC paper"
+        },
+        {
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1725653650/FB_IMG_1725628121394_izstdr.jpg",
+            "alt" : "Fire prevention month",
+            "size" : "9 by 12 in",
+            "medium" : "WC paper"
+        },
+        {
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1725653649/FB_IMG_1725628105412_oihlq3.jpg",
+            "alt" : "Activity",
+            "size" : "9 by 12 in",
+            "medium" : "WC paper"
+        }
+    ]
+}
