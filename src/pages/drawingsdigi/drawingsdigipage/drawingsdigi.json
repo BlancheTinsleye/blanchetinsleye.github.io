@@ -1,0 +1,202 @@
+{
+    "digi" : [
+        {
+            "alt" : "Alt Tab Hand Gesture", 
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1776386011/alt_tab_jorvme.png",
+            "size" : "1200 x 1200",
+            "medium" : "Krita"
+        },
+        {
+            "alt" : "BackspaceHand Gesture", 
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1776386007/backspace_xypzby.png",
+            "size" : "1200 x 1200",
+            "medium" : "Krita"
+        },
+        {
+            "alt" : "Brightness Activator Hand Gesture", 
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1776386016/brightness_activator_eltixe.png",
+            "size" : "1200 x 1200",
+            "medium" : "Krita"
+        },
+        {
+            "alt" : "CapsLock Hand Gesture", 
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1776386018/capslock_ib2byx.png",
+            "size" : "1200 x 1200",
+            "medium" : "Krita"
+        },
+        {
+            "alt" : "Copy Hand Gesture", 
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1776386018/copy_zmqgao.png",
+            "size" : "1200 x 1200",
+            "medium" : "Krita"
+        },
+        {
+            "alt" : "Drag Hand Gesture", 
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1776386017/drag_rurxfb.png",
+            "size" : "1200 x 1200",
+            "medium" : "Krita"
+        },
+        {
+            "alt" : "Excel Activation Hand Gesture", 
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1776386019/excel_activation_ykf5iz.png",
+            "size" : "1200 x 1200",
+            "medium" : "Krita"
+        },
+        {
+            "alt" : "Find Hand Gesture", 
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1776386006/find_cysu3k.png",
+            "size" : "1200 x 1200",
+            "medium" : "Krita"
+        },
+        {
+            "alt" : "Home Hand Gesture", 
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1776386008/home_stwqbo.png",
+            "size" : "1200 x 1200",
+            "medium" : "Krita"
+        },
+        {
+            "alt" : "Keyboard Activator Hand Gesture", 
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1776386009/keyboard_activator_glrw5t.png",
+            "size" : "1200 x 1200",
+            "medium" : "Krita"
+        },
+        {
+            "alt" : "Left Click Hand Gesture", 
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1776386007/left_click_a200ce.png",
+            "size" : "1200 x 1200",
+            "medium" : "Krita"
+        },
+        {
+            "alt" : "Move Cursor Hand Gesture", 
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1776386006/move_cursor_nvpjoo.png",
+            "size" : "1200 x 1200",
+            "medium" : "Krita"
+        },
+        {
+            "alt" : "Mute and Unmute Hand Gesture", 
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1776386009/mute_unmute_n20ofm.png",
+            "size" : "1200 x 1200",
+            "medium" : "Krita"
+        },
+        {
+            "alt" : "Neutral Hand Gesture", 
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1776386012/neutral_u7xmr2.png",
+            "size" : "1200 x 1200",
+            "medium" : "Krita"
+        },
+        {
+            "alt" : "New File Hand Gesture", 
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1776386007/new_file_cmcnif.png",
+            "size" : "1200 x 1200",
+            "medium" : "Krita"
+        },
+        {
+            "alt" : "Next Hand Gesture", 
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1776386006/next_f0sehz.png",
+            "size" : "1200 x 1200",
+            "medium" : "Krita"
+        },
+        {
+            "alt" : "Paste Hand Gesture", 
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1776386007/paste_e2b2es.png",
+            "size" : "1200 x 1200",
+            "medium" : "Krita"
+        },
+        {
+            "alt" : "Pause and Play Hand Gesture", 
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1776386006/pause_play_nejt9g.png",
+            "size" : "1200 x 1200",
+            "medium" : "Krita"
+        },
+        {
+            "alt" : "Previous Hand Gesture", 
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1776386006/previous_ozragd.png",
+            "size" : "1200 x 1200",
+            "medium" : "Krita"
+        },
+        {
+            "alt" : "Print Hand Gesture", 
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1776386012/print_dlpbqn.png",
+            "size" : "1200 x 1200",
+            "medium" : "Krita"
+        },
+        {
+            "alt" : "Redo Hand Gesture", 
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1776386009/redo_ukn16y.png",
+            "size" : "1200 x 1200",
+            "medium" : "Krita"
+        },
+        {
+            "alt" : "Right Click Release Hand Gesture", 
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1776386007/right_click_release_shccf0.png",
+            "size" : "1200 x 1200",
+            "medium" : "Krita"
+        },
+        {
+            "alt" : "Right Click Hand Gesture", 
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1776386010/right_click_qdt7ku.png",
+            "size" : "1200 x 1200",
+            "medium" : "Krita"
+        },
+        {
+            "alt" : "Save Hand Gesture", 
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1776386011/save_b7f7im.png",
+            "size" : "1200 x 1200",
+            "medium" : "Krita"
+        },
+        {
+            "alt" : "Save As Hand Gesture", 
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1776386011/save_as_f6skgw.png",
+            "size" : "1200 x 1200",
+            "medium" : "Krita"
+        },
+        {
+            "alt" : "ScreenshotHand Gesture", 
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1776386015/screenshot_fowwyw.png",
+            "size" : "1200 x 1200",
+            "medium" : "Krita"
+        },
+        {
+            "alt" : "Scroll Hand Gesture", 
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1776386013/scroll_fiiz8c.png",
+            "size" : "1200 x 1200",
+            "medium" : "Krita"
+        },
+        {
+            "alt" : "Select All Hand Gesture", 
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1776386014/select_all_uivw40.png",
+            "size" : "1200 x 1200",
+            "medium" : "Krita"
+        },
+        {
+            "alt" : "Undo Hand Gesture", 
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1776386016/undo_hg214c.png",
+            "size" : "1200 x 1200",
+            "medium" : "Krita"
+        },
+        {
+            "alt" : "Volume ActivatorHand Gesture", 
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1776386013/volume_activator_h3wz8u.png",
+            "size" : "1200 x 1200",
+            "medium" : "Krita"
+        },
+        {
+            "alt" : "Word ActivatorHand Gesture", 
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1776386016/word_activator_z1iiwl.png",
+            "size" : "1200 x 1200",
+            "medium" : "Krita"
+        },
+        {
+            "alt" : "Unused Gesture Hand Gesture", 
+            "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1776386010/unused_gesture_1_rm7y7o.png",
+            "size" : "1200 x 1200",
+            "medium" : "Krita"
+        },
+        {
+           "alt" : "Unused Gesture Hand Gesture",
+           "src" : "https://res.cloudinary.com/damtc4g0q/image/upload/v1776386014/unused_gesture_2_a1aytq.png",
+           "size" : "1200 x 1200",
+           "medium" : "Krita" 
+        }
+    ]
+}
