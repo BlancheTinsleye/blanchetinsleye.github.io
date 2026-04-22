@@ -7,6 +7,7 @@ import DrawingsTradPage from './pages/drawingstrad/drawingstradpage/DrawingsTrad
 // import Note from './pages/note/Note.tsx'
 import DrawingsDigiPage from './pages/drawingsdigi/drawingsdigipage/DrawingsDigiPage.tsx'
 import SkillsSection from './pages/skillssection/SkillsSection.tsx'
+import SandBox1_skills from './Sandbox/pages/sandbox_1/SandBox1.tsx'
 
 export default function App() {
   return (
@@ -18,6 +19,9 @@ export default function App() {
       <Route path="/drawingstrad" element={<DrawingsTradPage />} />
       <Route path='/drawingsdigi' element={<DrawingsDigiPage />} />
       <Route path='/skills' element={<SkillsSection />} />
+
+      {/* SANDBOX ROUTES */}
+      <Route path='/sandbox1-skills' element={<SandBox1_skills />} />
     </Routes>
   )
 }

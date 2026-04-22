@@ -1,5 +1,7 @@
 // import React from 'react'
 import './skillsection.css'
+import data from './skills.json'
+import SkillsLI from '../../components/skillsli/SkillsLI'
 
 const SkillsSection = () => {
   return (
@@ -9,29 +11,21 @@ const SkillsSection = () => {
             SKILLS
           </h1>
 
-          <div id="SS-skills">
+          <div id="SS-skills">j
             <ul className="SS-list-group1">
               <h2>
                 Programming / Web Development
               </h2>
-              <li className="SS-list-group1-item">Python</li>
-              <li className="SS-list-group1-item">Graphic design</li>
-              <li className="SS-list-group1-item">HTML</li>
-              <li className="SS-list-group1-item">React</li>
-              <li className="SS-list-group1-item">TypeScript</li>
-              <li className="SS-list-group1-item">UI/UX Interface</li>
-              <li className="SS-list-group1-item">Web design</li>
-              <li className="SS-list-group1-item">Visual Content Creation</li>
-              <li className="SS-list-group1-item">JavaScript</li>
+              {data.skills['Group-1'].map((skill, index) =>
+              <SkillsLI key={index} skill={skill} />)}
             </ul>
 
             <ul className="SS-list-group2">
               <h2>
                 Design & Creative Tools
               </h2>
-              <li className="SS-list-group2-item">Figma</li>
-              <li className="SS-list-group2-item">Krita</li>
-              <li className="SS-list-group2-item">Aseprite</li>
+              {data.skills['Group-2'].map((skill, index) =>
+              <SkillsLI key={index} skill={skill} />)}
               {/* <li className="SS-list-group2-item"></li> */}
 
             </ul>

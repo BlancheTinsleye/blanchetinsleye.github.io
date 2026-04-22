@@ -1,0 +1,21 @@
+{
+    "skills" : {
+        "Group-1" : [
+            "Python",
+            "Graphic Design",
+            "HTML",
+            "CSS",
+            "React",
+            "TypeScript",
+            "UI/UX Interface",
+            "Web Design",
+            "Visual Content Creation",
+            "JavaScript"
+        ],
+        "Group-2" : [
+            "Figma",
+            "Krita",
+            "Aseprite"
+        ]
+    }
+}
