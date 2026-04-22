@@ -1,4 +1,5 @@
 // import React from 'react'
+import ScrollToTop from '../../../ScrollToTop'
 import Footer from '../../footer/Footer'
 import TopBar from '../../topbar/TopBar'
 import './drawingsdigipage.css'
@@ -7,6 +8,7 @@ const DrawingsDigiPage = () => {
   return (
     <>
         <TopBar />
+        <ScrollToTop />
         <div id="TopBar-BG"></div>
         <div className="PAGE">
           <div className='mainCONT' id="DDP-mainCONT">
