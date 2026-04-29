@@ -35,6 +35,9 @@
     position: relative;
     height: 200px;
     width: 200px;
+
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
 }
 
 .image-wrapper img {
@@ -51,6 +54,12 @@
     top: 0;
     left: 0;
     opacity: 0;
+}
+
+#HomeintroTXTCONT {
+    
+
+    border-radius: 25px;
 }
 
 /* Hover effect */
@@ -72,7 +81,9 @@
     text-align: center;
     font-size: 40px;
 
+    transform: translateZ(20px);
     transition: text-shadow 0.5s ease-in-out;
+
 }
 
 #HomeintronameTXT:hover {
