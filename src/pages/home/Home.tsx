@@ -13,30 +13,11 @@ import DrawingsTradSection from "../drawingstrad/drawingstradsection/DrawingsTra
 import DrawingsDigiSection from "../drawingsdigi/drawingsdigisection/DrawingsDigiSection";
 import ScrollToTop from "../../ScrollToTop";
 
-import { useEffect, useRef } from "react";
-import VanillaTilt from "vanilla-tilt";
+import useTilt from '../../hooks/useTilt'
 
 const Home = () => {
-  const tiltRef = useRef<HTMLDivElement & { vanillaTilt?: { destroy: () => void } } | null>(null);
-  useEffect(() => {
-    const tiltNode = tiltRef.current;
-
-    if (tiltNode) {
-      VanillaTilt.init(tiltNode, {
-        reverse: true,
-        max: 8,
-        speed: 400,
-        glare: false,
-        // "max-glare": 0.3,
-      });
-    }
-
-    return () => {
-      if (tiltNode?.vanillaTilt) {
-        tiltNode.vanillaTilt.destroy();
-      }
-    };
-  }, []);
+  const tiltRef = useTilt({ max: 8, reverse: true });
+ 
   return (
     <>
       <TopBar />
