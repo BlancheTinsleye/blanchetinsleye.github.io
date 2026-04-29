@@ -24,7 +24,7 @@ const Home = () => {
     if (tiltNode) {
       VanillaTilt.init(tiltNode, {
         reverse: true,
-        max: 25,
+        max: 8,
         speed: 400,
         glare: false,
         // "max-glare": 0.3,
