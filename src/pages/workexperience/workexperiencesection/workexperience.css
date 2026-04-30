@@ -3,7 +3,7 @@
     margin-top: 100px;
     padding-bottom: 50px;
 
-    background-color: #100D17;
+    background-color: var(--color-background);
 
     width: 90%;
 
@@ -30,7 +30,7 @@
     width: 200px;
     height: 200px;
 
-    background-color: #ffffff;
+    background-color: var(--color-secondary);
 
     border-radius: 10px;
     margin: 10px;
@@ -54,7 +54,7 @@
     margin-top: 20px;
 
     font-size: 14px;
-    color: #ecff40;
+    color: var(--color-primary);
 }
 
 @media (min-width: 768px) {

@@ -3,7 +3,7 @@
     margin-top: 100px;
     padding-bottom: 50px;
 
-    background-color: #100D17;
+    background-color: var(--color-background);
 
     width: 90%;
 
@@ -38,7 +38,7 @@
 
     text-align: center;
 
-    border: 1px solid #ffffff;
+    border: 1px solid var(--color-secondary);
     border-radius: 5px;
 
     display: flex;
@@ -51,9 +51,9 @@
 }
 
 #SS-skills li:hover {
-    box-shadow: 0px 0px 10px 2px #ecff40,
-    inset 0px 0px 10px 1px #ecff40;
-    border: 1px solid #ecff40;
+    box-shadow: 0px 0px 10px 2px var(--color-primary),
+    inset 0px 0px 10px 1px var(--color-primary);
+    border: 1px solid var(--color-primary);
 
 
 }

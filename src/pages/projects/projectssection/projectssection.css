@@ -3,7 +3,7 @@
     margin-top: 100px;
     padding-bottom: 50px;
 
-    background-color: #100D17;
+    background-color: var(--color-background);
 
     width: 90%;
 
@@ -34,9 +34,9 @@
     margin-top: 20px;
     margin-bottom: 20px;
 
-    /* border-top: 1px dashed #ffffff;
-    border-bottom: 1px dashed #ffffff; */
-    border: 1px solid #100D17;
+    /* border-top: 1px dashed var(--color-secondary);
+    border-bottom: 1px dashed var(--color-secondary); */
+    border: 1px solid var(--color-background);
     border-radius: 10px;
 
 
@@ -49,13 +49,13 @@
 }
 
 .PS-prjct:hover {
-    box-shadow: 0px 0px 10px 2px #ecff40,
-    inset 0px 0px 10px 1px #ecff40;
-    border: 1px solid #ecff40;
+    box-shadow: 0px 0px 10px 2px var(--color-primary),
+    inset 0px 0px 10px 1px var(--color-primary);
+    border: 1px solid var(--color-primary);
     border-radius: 20px;
 
-    /* border-top: 1px dashed #ecff40;
-    border-bottom: 1px dashed #ecff40; */
+    /* border-top: 1px dashed var(--color-primary);
+    border-bottom: 1px dashed var(--color-primary); */
 
 }
 
@@ -67,7 +67,7 @@
 .PS-prjctIMG {
     height: 200px;
     width: 200px;
-    background-color: #ffffff;
+    background-color: var(--color-secondary);
     border-radius: 10px;
     margin-bottom: 20px;
 }
@@ -76,7 +76,7 @@
     margin-top: 20px;
 
     font-size: 14px;
-    color: #ecff40;
+    color: var(--color-primary);
 }
 
 @media (min-width: 768px) {

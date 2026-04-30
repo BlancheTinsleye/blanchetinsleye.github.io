@@ -52,13 +52,13 @@ body {
   font-family: "courierprime-regular";
   text-decoration: none;
 
-  color: #ffffff;
+  color: var(--color-secondary);
 
   max-width: 1720px;
 }
 
 .section {
-  border: 1px dashed #ffffff;
+  border: 1px dashed var(--color-secondary);
   border-radius: 10px;
 
   padding-top: 20px;
@@ -68,7 +68,7 @@ body {
 }
 
 h1, h2 {
-  color: #ECFF40;
+  color: var(--color-primary);
 }
 
 #root {
@@ -95,14 +95,14 @@ h1, h2 {
   
   padding: 10px;
 
-  /* background-color: #ffffff; */
+  /* background-color: var(--color-secondary); */
 
   /* color: #100D17; */
 
-  border: 2px solid #ECFF40;
+  border: 2px solid var(--color-primary);
   border-radius: 20px;
 
-  background-color: #ECFF40;
+  background-color: var(--color-primary);
   color: #100D17;
 
   /* margin-top: 20px; */
@@ -117,8 +117,8 @@ h1, h2 {
 }
 
 .link:hover {
-  border: 2px solid #ffffff65;
-  box-shadow: 0px 0px 10px 1px #ECFF40;
+  border: 2px solid var(--color-secondary)65;
+  box-shadow: 0px 0px 10px 1px var(--color-primary);
   border-radius: 10px;
 }
 
@@ -150,9 +150,9 @@ h1, h2 {
   text-align: center;
   
   
-  border: 1px solid #ECFF40;
+  border: 1px solid var(--color-primary);
   border-radius: 25px;
-  box-shadow: inset 0px 0px 10px 0.01px #ECFF40;
+  box-shadow: inset 0px 0px 10px 0.01px var(--color-primary);
 
   padding: 10px;
   padding-top: 50px;
@@ -214,7 +214,7 @@ h1, h2 {
     flex-direction: column;
     align-items: center;
 
-    color: #ffffff;
+    color: var(--color-secondary);
 
     padding-bottom: 100px;
 }

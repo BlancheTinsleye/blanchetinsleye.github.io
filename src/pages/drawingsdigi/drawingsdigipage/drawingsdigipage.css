@@ -2,7 +2,7 @@
     min-height: 100vh;
     width: 100%;
 
-    background-color: #ffffff; 
+    background-color: var(--color-secondary); 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,7 +50,7 @@
 .drawingsdigi-IMG {
     height: 100px;
     width: 100px;
-    /* background-color: #ECFF40; */
+    /* background-color: var(--color-primary); */
 }
 
 .drawingsdigi-txtCONT {

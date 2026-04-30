@@ -34,7 +34,7 @@
 .drawingstrad-IMG {
     height: 100px;
     width: 100px;
-    /* background-color: #ECFF40; */
+    /* background-color: var(--color-primary); */
 }
 
 .drawingstrad-txtCONT {
