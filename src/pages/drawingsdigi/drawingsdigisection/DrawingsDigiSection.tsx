@@ -13,11 +13,29 @@ const DrawingsDigiSection = () => {
             </h1>
 
             <div className="Drawings-prevCONT">
-                {data.digi.map((gesture, index) =>
-                <DrawingsDIgiIMG key={index} link={gesture.src} name={gesture.alt} />
-                )}
+                {/* {data.trad.map((gesture, index) =>
+                <DrawingsTradIMG key={index} link={gesture.src} name={gesture.alt} />
+                )}*/}
+
+                <div className="Drawings-row">
+                    {
+                        data.digi.slice(0, 3).map((gesture, index) =>
+                            <DrawingsDIgiIMG key={index} link={gesture.src} name={gesture.alt} />
+                        )
+                    }
+                </div>
+
+                <div className="Drawings-row">
+                    {
+                        data.digi.slice(0, 3).map((gesture, index) =>
+                            <DrawingsDIgiIMG key={index} link={gesture.src} name={gesture.alt} />
+                        )
+                    }
+                </div>
+
+                
             </div>
-                <Link className='link' to="/drawingsdigi">Click to see more of my Drawings (Digital)</Link>
+            <Link className='link' to="/drawingsdigi">Click to see more of my Drawings (Digital)</Link>
 
         </div>
     </>
