@@ -57,7 +57,7 @@ const Home = () => {
         <DrawingsDigiSection />
       </div>
 
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
