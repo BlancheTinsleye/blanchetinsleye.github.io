@@ -2,7 +2,7 @@
 import "./home.css";
 import "../aboutmesection/AboutMeSection";
 import AboutMe from "../aboutmesection/AboutMeSection";
-import me from "../../assets/me.png";
+// import me from "../../assets/me.png";
 import drawing from "../../assets/drawing.png";
 import TopBar from "../topbar/TopBar";
 import Footer from "../footer/Footer";
@@ -30,7 +30,7 @@ const Home = () => {
         <div id="HomeintroCONT">
           <div className="image-wrapper">
             <img className="img-default" src={drawing} alt="Profile picture" />
-            <img className="img-hover" src={me} alt="Alternate profile" />
+            {/* <img className="img-hover" src={me} alt="Alternate profile" /> */}
           </div>
           <div  ref={tiltRef} id="HomeintroTXTCONT">
             <h1 id="HomeintronameTXT">

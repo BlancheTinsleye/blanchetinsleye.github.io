@@ -63,13 +63,13 @@
 }
 
 /* Hover effect */
-.image-wrapper:hover .img-hover {
+/* .image-wrapper:hover .img-hover {
     opacity: 1;
 }
 
 .image-wrapper:hover .img-default {
     opacity: 0;
-}
+} */
 
 /* Optional polish */
 .image-wrapper:hover img {
