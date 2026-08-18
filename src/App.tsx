@@ -10,6 +10,8 @@ import DrawingsTradPage from './pages/drawingstrad/drawingstradpage/DrawingsTrad
 import DrawingsDigiPage from './pages/drawingsdigi/drawingsdigipage/DrawingsDigiPage.tsx'
 import SkillsSection from './pages/skillssection/SkillsSection.tsx'
 import SandBox1_skills from './Sandbox/pages/sandbox_1/SandBox1.tsx'
+import MapTo from './Sandbox/pages/mapTo/MapTo.tsx'
+import SplitText from './Sandbox/pages/splitText/SplitText.tsx'
 
 export default function App() {
   return (
@@ -24,6 +26,8 @@ export default function App() {
 
       {/* SANDBOX ROUTES */}
       <Route path='/sandbox1-skills' element={<SandBox1_skills />} />
+      <Route path='/Draggable-mapTo' element={<MapTo />} />
+      <Route path='/splitText' element={<SplitText />} />
     </Routes>
   )
 }
